@@ -119,7 +119,63 @@ margin-left:150px ;
     margin-top: 20px;
     font-size: 20px;
 }
+@media (max-width: 576px) {
+    .navber {
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+        
+    }
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+         flex-direction: column-reverse;
+   margin: 100px;
+   width: 400px;
+   gap: 50px;
+        
+    }
+    .banner-pera{
+        display: block;
+        text-align: center;
+        width: 200px;
+        align-items: center;
+    }
+    .review-section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0px;
 
+        margin: auto 0 ;
+
+    }
+    .main  {
+        grid-template-columns: 1fr;
+        margin: 20px;
+      
+        /* width: 50px; */
+    }
+    .main-card{
+        width: 350px;
+        height: 600px;
+
+        padding: 10px; 
+    }
+    .Featured{
+        display: flex;
+        flex-direction: column;
+        /* margin-bottom: 200PX; */
+      
+    } 
+    /* .footer {
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       margin-top: 100px;
+    }    */
+}
+    
+    
 
 
 
